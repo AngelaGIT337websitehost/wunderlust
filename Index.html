@@ -4,13 +4,18 @@
 	<meta charset="utf-8">
 	<meta name="author" content="Angela Brown">
 	<title>Wunderlust Travel </title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<!-- No CSS for this assignment<link rel="stylesheet" type="text/css" href="styles.css"> -->
 </head>
 <body>
 	<a href="#main-content" id="skipLink">Skip to main content</a>
 	<header>
 		<h1>Wunderlust Travel</h1>
-        <img src="logo-M.png" alt="logo of website"><!-- add img stuff-->
+        <picture>
+            <source media="(min-width: 1024px)" srcset="logo-L.png">
+            <source media="(max-width: 780px)" srcset="logo-M.png">
+            <source media="(max-width: 320px)" srcset="logo-S.png">
+            <img src="logo-M.png" alt="logo of wunderlust which is a sun with two palm trees in front of it with water">
+        </picture>
         <p>Let Wunderlust Travel help you plan the trip of your dreams!</p>
 		<nav>
 			<ul>
@@ -24,9 +29,9 @@
     <article>
         <h2>Majorca</h2>
         <p>Imagine an island with turquoise blue waters, secret coves, soft golden sands, lush green foliage, rugged mountains, picturesque villages and a vibrant capital city. The island and its capital, Palma, are overflowing with character, while its beaches are famous all around the world, making it one of the most sought-after summer destinations.</p>
-        <img src="majorca-waves-M.png" alt="waves of majorca"><!-- add img sizing stuff-->
-        <img src="majorca-beach-M.png" alt="beach in majorca"><!-- add img -->
-        <img src="majorca-cove-M.png" alt="cove in majorca"><!-- add img -->
+        <img src="majorca-waves-M.png" alt="waves off majorca rocky shore"><!-- add img sizing stuff-->
+        <img src="majorca-beach-M.png" alt="white sandy beach in majorca with crystal clear blue water"><!-- add img -->
+        <img src="majorca-cove-M.png" alt="cove in majorca showcases the rockie coastline and crystal clear blue water"><!-- add img -->
     </article>
 	<main id="main-content">
 		<h2>Plan Your Trip</h2>
