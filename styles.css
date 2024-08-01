@@ -238,11 +238,20 @@ h3{
     font-size: 25px;
     text-align: left;
 }
+h3 span{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 12px;
+}
 h4{
     font-weight: 700;
     font-size: 20px;
     text-transform: uppercase;
     padding-top: 10px;
+}
+q{
+    font-style: italic;
 }
 header p{
     font-weight: 500;
@@ -312,3 +321,89 @@ header p{
 #testimonials img{
     margin: auto;
 }
+/* ------ Destination --------- */
+#about{
+    padding: 1rem;
+    background-color: var(--blue);
+}
+#about div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    row-gap: 10px;
+    
+}
+#about img{
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    width:90%;
+    height: 100px;
+}
+/* ------ Contact --------- */
+#contact{
+    padding: 1rem;
+}
+#contact h3{
+    display:flex;
+}
+#contact h3 span{
+    display:flex;
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    margin: auto;
+}
+form label{
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+}
+form input {
+    border: 1px solid var(--purple);
+    width: 100%;
+    height: 30px;
+}
+form legend{
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+}
+form legend span{
+    color: var(--purple);
+}
+form fieldset span{
+    color: var(--blaack);
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: none;
+}
+form span{
+    color: var(--purple);
+}
+#mySubmit{
+    color: var(--white);
+    background-color: var(--purple);
+    width: 100%;
+    height: 30px;
+}
+/* ------ Footer --------- */
+footer{
+    background-color: var(--light-gray);
+    text-align: center;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer a {
+    text-decoration: none;
+    color: var(--blaack);
+}
+/* ------ Tablet--------- */
